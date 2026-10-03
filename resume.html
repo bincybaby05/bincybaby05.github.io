@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bincy Baby — ATS-Friendly Resume</title>
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="shortcut icon" href="favicon.ico">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @media print {
+      .no-print { display: none !important; }
+      body { background: #ffffff !important; color: #000000 !important; }
+      .resume-container { box-shadow: none !important; border: none !important; padding: 0 !important; margin: 0 !important; max-width: 100% !important; }
+    }
+  </style>
+</head>
+<body class="bg-slate-100 text-slate-900 font-sans antialiased py-8 sm:py-12 px-4">
+
+  <!-- Top Floating Action Toolbar (Hidden in Print) -->
+  <div class="max-w-4xl mx-auto mb-6 flex items-center justify-between no-print">
+    <a href="index.html" class="inline-flex items-center gap-1.5 text-xs font-bold text-slate-700 hover:text-slate-950 transition-colors">
+      <span>← Back to Portfolio</span>
+    </a>
+    <div class="flex items-center gap-2.5">
+      <button onclick="window.print()" class="px-4 py-2 rounded-full bg-slate-950 hover:bg-slate-800 text-white text-xs font-bold transition-colors shadow-sm flex items-center gap-1.5 cursor-pointer">
+        <span>🖨️ Print / Save as PDF</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Main Resume Sheet (Clean ATS Standard) -->
+  <main class="resume-container max-w-4xl mx-auto bg-white border border-slate-200 shadow-lg rounded-2xl p-8 sm:p-14 space-y-6">
+    
+    <!-- 1. Header & Contact -->
+    <header class="border-b border-slate-300 pb-6 text-center sm:text-left">
+      <h1 class="text-3xl sm:text-4xl font-black text-slate-950 tracking-tight">
+        BINCY BABY
+      </h1>
+      <p class="text-lg font-bold text-slate-800 mt-1">
+        QA / Test Engineer | Prompt Engineer
+      </p>
+      <div class="flex flex-wrap items-center justify-center sm:justify-start gap-x-4 gap-y-1.5 text-xs text-slate-600 mt-3 font-medium">
+        <span>📍 Kochi, Kerala, India</span>
+        <span>•</span>
+        <a href="mailto:bincybaby053512@gmail.com" class="text-slate-900 hover:underline">bincybaby053512@gmail.com</a>
+        <span>•</span>
+        <a href="tel:+918714046121" class="text-slate-900 hover:underline">+91 - 8714046121</a>
+        <span>•</span>
+        <a href="https://www.linkedin.com/in/bincy-baby-0558841a7" target="_blank" rel="noopener noreferrer" class="text-slate-900 hover:underline">linkedin.com/in/bincy-baby-0558841a7</a>
+      </div>
+    </header>
+
+    <!-- 2. Professional Summary -->
+    <section class="space-y-2">
+      <h2 class="text-xs font-bold uppercase tracking-wider text-slate-900 border-b border-slate-300 pb-1 font-mono">
+        Professional Summary
+      </h2>
+      <p class="text-slate-700 text-sm leading-relaxed">
+        Detail-oriented QA / Test Engineer and Prompt Engineer with 6+ years of extensive hands-on experience in Manual Testing, Functional Testing, Regression, UAT, API Testing, and Mobile Application Testing across iOS and Android ecosystems. Proven expertise spanning the complete Software Testing Life Cycle (STLC), test planning, test case design, defect tracking with JIRA, client demo sessions, and cross-functional Agile collaboration. Experienced in leveraging AI-assisted prompt workflows to enhance test coverage, accelerate requirement analysis, and optimize delivery turnaround.
+      </p>
+    </section>
+
+    <!-- 3. Core Competencies & Technical Skills -->
+    <section class="space-y-2.5">
+      <h2 class="text-xs font-bold uppercase tracking-wider text-slate-900 border-b border-slate-300 pb-1 font-mono">
+        Core Competencies &amp; Technical Skills
+      </h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs sm:text-[13px] text-slate-800">
+        <div>
+          <p><strong>Testing Disciplines:</strong> Manual Testing, Functional, Regression, UAT, Integration, End-to-End, Exploratory, API Testing, Database Testing, Mobile Testing (iOS &amp; Android), Compatibility, Smoke &amp; Sanity Testing.</p>
+        </div>
+        <div>
+          <p><strong>Test Management:</strong> Test Planning, Test Scenarios, Test Cases, Test Data Preparation, Requirement Analysis (BRD/FRD/User Stories), Defect Lifecycle Management, Release Validation.</p>
+        </div>
+        <div>
+          <p><strong>Tools &amp; Automation:</strong> JIRA, Postman, Selenium, Playwright, JMeter, SQL, BrowserStack, Jam, Loom, Scribe.</p>
+        </div>
+        <div>
+          <p><strong>AI &amp; Prompt Engineering:</strong> ChatGPT, Claude, Lovable, Antigravity, AI-Assisted QA Workflows, Prompt Optimization.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Professional Experience -->
+    <section class="space-y-6">
+      <h2 class="text-xs font-bold uppercase tracking-wider text-slate-900 border-b border-slate-300 pb-1 font-mono">
+        Professional Experience
+      </h2>
+
+      <!-- Company 1: Mach 10 -->
+      <div class="space-y-2">
+        <div class="flex flex-col sm:flex-row sm:items-baseline justify-between">
+          <h3 class="text-sm font-bold text-slate-950">
+            QA Engineer / Prompt Engineer — <span class="font-normal text-slate-700">Mach 10 Global Consultancy Private Limited</span>
+          </h3>
+          <span class="text-xs font-semibold text-slate-600 shrink-0">Mar 2025 — Present · Kochi, Kerala, India</span>
+        </div>
+        <ul class="list-disc list-outside pl-4 space-y-1 text-xs sm:text-[13px] text-slate-700 leading-relaxed">
+          <li>Analyzed BRDs, FRDs, and user stories to identify missing or conflicting requirements prior to development.</li>
+          <li>Tested web applications, CRM systems, LMS, and field-force mobile apps across iOS and Android environments.</li>
+          <li>Managed complete defect lifecycles in JIRA; performed defect reporting, retesting, and regression suite execution.</li>
+          <li>Coordinated client demo meetings and UAT sessions; communicated confirmed requirements to developers and QA teams.</li>
+          <li>Integrated AI prompt engineering workflows (ChatGPT, Claude, Lovable, Antigravity) to accelerate test design and coverage.</li>
+          <li>Selected as Star of the Month (July 2025); mentored 5 junior testers on test documentation and defect reporting.</li>
+        </ul>
+      </div>
+
+      <!-- Company 2: UFS -->
+      <div class="space-y-2">
+        <div class="flex flex-col sm:flex-row sm:items-baseline justify-between">
+          <h3 class="text-sm font-bold text-slate-950">
+            Software Tester — <span class="font-normal text-slate-700">UFS Technologies Pvt. Ltd.</span>
+          </h3>
+          <span class="text-xs font-semibold text-slate-600 shrink-0">Sep 2021 — Mar 2025 · 🕒 3 years 6 months · Kochi, Kerala, India</span>
+        </div>
+        <ul class="list-disc list-outside pl-4 space-y-1 text-xs sm:text-[13px] text-slate-700 leading-relaxed">
+          <li>Tested web applications, CRM systems, websites, and mobile applications across both iOS and Android platforms.</li>
+          <li>Designed and executed test scenarios and test cases covering functional, validation, UI, regression, compatibility, and end-to-end flows.</li>
+          <li>Identified, documented, and tracked defects using JIRA; provided clear reproduction steps, expected results, and performed retesting.</li>
+          <li>Acted as Project Coordinator bridging clients, management, developers, and QA across the delivery cycle: Client → Management → Development → QA → Client Validation.</li>
+          <li>Clarified functional requirements with clients and validated that delivered features matched confirmed client expectations.</li>
+        </ul>
+      </div>
+
+      <!-- Company 3: Eventalog -->
+      <div class="space-y-2">
+        <div class="flex flex-col sm:flex-row sm:items-baseline justify-between">
+          <h3 class="text-sm font-bold text-slate-950">
+            Software Tester — <span class="font-normal text-slate-700">Eventalog Technologies Pvt. Ltd.</span>
+          </h3>
+          <span class="text-xs font-semibold text-slate-600 shrink-0">Sep 2020 — Sep 2021 · 🕒 1 yr · Kochi, Kerala, India</span>
+        </div>
+        <ul class="list-disc list-outside pl-4 space-y-1 text-xs sm:text-[13px] text-slate-700 leading-relaxed">
+          <li>Prepared test cases and test data for customer-facing event browsing, enquiry submission, and partner response management workflows.</li>
+          <li>Conducted functional, regression, validation, boundary, and UI testing across web and mobile platforms.</li>
+          <li>Documented and tracked defects with clear reproduction steps, screenshots, severity, and verified resolved defects.</li>
+        </ul>
+      </div>
+
+      <!-- Company 4: Soften -->
+      <div class="space-y-2">
+        <div class="flex flex-col sm:flex-row sm:items-baseline justify-between">
+          <h3 class="text-sm font-bold text-slate-950">
+            Software Tester Intern — <span class="font-normal text-slate-700">Soften Technologies</span>
+          </h3>
+          <span class="text-xs font-semibold text-slate-600 shrink-0">Jul 2019 — Feb 2020 · Kochi, Kerala, India</span>
+        </div>
+        <ul class="list-disc list-outside pl-4 space-y-1 text-xs sm:text-[13px] text-slate-700 leading-relaxed">
+          <li>Completed a 2-month Software Testing course followed by a 6-month practical internship.</li>
+          <li>Gained hands-on experience in manual testing, test case design, execution, defect reporting, Selenium, and JMeter testing.</li>
+          <li>Derived and documented detailed Test Scenarios based on application requirements.</li>
+          <li>Prepared, executed, and maintained detailed Test Cases covering application functionality.</li>
+          <li>Executed test cases and validated application functionality against expected results.</li>
+          <li>Identified, documented, and reported software defects with clear reproduction steps, expected results, and actual results.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 5. Education -->
+    <section class="space-y-3">
+      <h2 class="text-xs font-bold uppercase tracking-wider text-slate-900 border-b border-slate-300 pb-1 font-mono">
+        Education
+      </h2>
+      <div class="space-y-2.5 text-xs sm:text-sm text-slate-800">
+        <div class="flex flex-col sm:flex-row sm:items-baseline justify-between">
+          <div>
+            <p class="font-bold text-slate-950">Bachelor of Technology (B.Tech) – Computer Science & Engineering</p>
+            <p class="text-xs text-slate-600">Jai Bharath College of Management & Engineering Technology, Perumbavoor, Kochi, Kerala</p>
+          </div>
+          <span class="text-xs font-semibold text-slate-600">2019</span>
+        </div>
+        <div class="flex flex-col sm:flex-row sm:items-baseline justify-between pt-2 border-t border-slate-100">
+          <div>
+            <p class="font-bold text-slate-950">Higher Secondary (+2) – Computer Science</p>
+            <p class="text-xs text-slate-600">St. Joseph C.G.H.S.S., Tripunithura, Kochi, Kerala</p>
+          </div>
+          <span class="text-xs font-semibold text-slate-600">2015</span>
+        </div>
+        <div class="flex flex-col sm:flex-row sm:items-baseline justify-between pt-2 border-t border-slate-100">
+          <div>
+            <p class="font-bold text-slate-950">SSLC / 10th Standard</p>
+            <p class="text-xs text-slate-600">St. Jude’s E.M.H.S., Ambalamedu, Kochi, Kerala</p>
+          </div>
+          <span class="text-xs font-semibold text-slate-600">2013</span>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+</body>
+</html>
